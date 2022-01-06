@@ -8,6 +8,7 @@
 //    }
 // }
 
+//quando vc declara no static paths, o custo de delay ja é pago no build, então em produção ele vai bem mais rapido
 export async function getStaticPaths() {
    return {
       paths: [{
